@@ -1,5 +1,5 @@
 # Responsive Web Design
-This repository showcases my responsive web design projects completed as part of my certification journey. Over the summer of 2025, I'll be adding new projects as I build practical, responsive websites using HTML, CSS, and other front-end technologies.  
+This repository showcases my responsive web design projects completed as part of my certification (freecodecamp.org) journey. Over the summer of 2025, I'll be adding new projects as I build practical, responsive websites using HTML, CSS, and other front-end technologies.  
 
 ## 🧰 Technologies Used
 
