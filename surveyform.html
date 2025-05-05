@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html> 
+<head>
+  <title>Survey Form</title>
+  <html lang="en"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="surveyform.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="title">Favorite Music Survey</h1>
+    <p id="description">Tell us about your music preferences and favorite artists!</p>
+    
+    <form id="survey-form">
+      <!-- Name -->
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+
+      <!-- Email -->
+      <label id="email-label" for="email">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+
+      <!-- Age -->
+      <label id="number-label" for="number">Age</label>
+      <input id="number" type="number" min="10" max="120" placeholder="Enter your age" required>
+
+      <!-- Favorite Genre -->
+      <label for="dropdown">Which option best describes your favorite genre?</label>
+      <select id="dropdown" required>
+        <option value="">Select a genre</option>
+        <option value="rock">Rock</option>
+        <option value="pop">Pop</option>
+        <option value="rap">Rap</option>
+        <option value="jazz">Jazz</option>
+        <option value="classical">Classical</option>
+        <option value="country">Country</option>
+        <option value="metal">Metal</option>
+        <option value="reggae">Reggae</option>
+        <option value="rnb">R&B</option>
+      </select>
+
+      <!-- Recommend Genre -->
+      <p class="recommend">Would you recommend this genre to a friend?</p>
+      <label><input type="radio" name="recommend" value="yes" required> Definitely</label>
+      <label><input type="radio" name="recommend" value="maybe"> Maybe</label>
+      <label><input type="radio" name="recommend" value="no"> No</label>
+
+      <!-- Favorite Thing -->
+      <p class="thing">What's your favorite thing about that genre?</p>
+      <label><input type="checkbox" name="thing" value="Tone" required> Tone</label>
+      <label><input type="checkbox" name="thing" value="Style"> Style</label>
+      <label><input type="checkbox" name="thing" value="Harmony"> Harmony</label>
+      <label><input type="checkbox" name="thing" value="Rhythm"> Rhythm</label>
+
+       <!-- Favorite Artist (example dropdown) -->
+     <label for="artist">Who’s your favorite artist from that genre?</label>
+     <select id="artist" required>
+     <option value="">Select an artist</option>
+     <option value="artist1">The Rolling Stones</option>
+     <option value="artist2">Lady Gaga</option>
+     <option value="artist3">Kendrick Lamar</option>
+     <option value="artist4">Ella Fitzgerald</option>
+     <option value="artist5">Ludwig van Beethoven</option>
+     <option value="artist6">Dolly Parton</option>
+     <option value="artist7">Slipknot</option>
+     <option value="artist8">Bob Marley</option>
+     <option value="artist9">SZA</option>
+     <option value="artist10">Other</option>
+     </select>
+
+      <!-- Comments -->
+      <label for="comments">What's your favorite thing about that artist?</label>
+      <textarea id="comments" placeholder="Enter your comment here..."></textarea>
+
+      <!-- Submit -->
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

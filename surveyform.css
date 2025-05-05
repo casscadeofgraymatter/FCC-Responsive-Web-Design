@@ -1,0 +1,70 @@
+body {
+    background: url('your-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.8);
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 30px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+
+  .recommend {
+    text-align: left;
+  }
+
+  .thing {
+    text-align: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 96%;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
